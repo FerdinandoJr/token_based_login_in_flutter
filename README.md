@@ -1,16 +1,10 @@
-# token_based_authentication
+# Projeto de Autenticação com Flutter
 
-A new Flutter project.
+Este projeto Flutter implementa um sistema simples de autenticação baseado em token. Utiliza Riverpod para gerenciamento de estado e GoRouter para roteamento eficiente e automático entre as telas de Login e Home, dependendo do status do token de autenticação do usuário.
 
-## Getting Started
+## Recursos
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Login Baseado em Token**: Autenticação segura que gera e verifica tokens de usuário.
+- **Redirecionamento Automático**: Direciona automaticamente para a tela Home ou Login, com base na presença de um token de autenticação.
+- **Gerenciamento de Estado com Riverpod**: Gerencia o estado de autenticação de forma eficiente e reativa.
+- **Roteamento com GoRouter**: Navegação simplificada entre telas.
